@@ -38,8 +38,8 @@ provider "random" {
   # Configuration options
 }
 
-resource "abbey_grant_kit" "null_grant" {
-  name = "Null_grant"
+resource "abbey_grant_kit" "null_grant_2" {
+  name = "Null_grant_2"
   description = <<-EOT
     Grants access to a Null Resource.
     This Grant Kit uses a single-step Grant Workflow that requires only a single reviewer
